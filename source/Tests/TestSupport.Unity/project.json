@@ -1,16 +1,34 @@
 ﻿{
-  "version": "1.0.0.0-beta",
+  "version": "1.0.0.0",
   "description": "Unity.TestSupport Class Library",
   "authors": [ "AgileSight" ],
-  "tags": [ "" ],
-  "projectUrl": "",
-  "licenseUrl": "",
-  "dependencies": {
-    "xunit.assert": "2.1.0",
-    "Unity-CoreClr": "1.0.0.0-beta3"
+  "packOptions": {
+    "tags": [ "" ],
+    "licenseUrl": "",
+    "repository": { "url": "https://github.com/unitycontainer/unity" }
   },
-
+  "testRunner": "xunit",
+  "dependencies": {
+    "System.Runtime.Serialization.Primitives": "4.1.1",
+    "xunit": "2.1.0",
+    "dotnet-test-xunit": "1.0.0-rc2-build10025",
+    "Unity-CoreClr": {
+      "target": "project"
+    },
+    "System.ComponentModel.TypeConverter": "4.1.0"
+  },
   "frameworks": {
-    "dnxcore50": { }
+    "netcoreapp1.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "type": "platform",
+          "version": "1.0.0"
+        }
+      },
+      "imports": [
+        "dotnet5.4",
+        "portable-net451+win8"
+      ]
+    }
   }
 }

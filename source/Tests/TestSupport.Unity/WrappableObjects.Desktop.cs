@@ -4,14 +4,14 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-#if !DNXCORE50
+#if !NETCOREAPP1_0
 namespace Unity.TestSupport
 {
-    public partial class Wrappable : MarshalByRefObject
+    public partial class Wrappable // : MarshalByRefObject
     {
     }
 
-    public partial class WrappableWithProperty : MarshalByRefObject
+    public partial class WrappableWithProperty // : MarshalByRefObject
     {
     }
 }

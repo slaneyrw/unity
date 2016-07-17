@@ -22,7 +22,7 @@ namespace Unity.Properties {
     // with the /str option, or rebuild your VS project.
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    public class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -35,10 +35,10 @@ namespace Unity.Properties {
         ///    Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Unity.Properties.Resources", typeof(Resources).GetTypeInfo().Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Unity-CoreClr.Properties.Resources", typeof(Resources).GetTypeInfo().Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -50,7 +50,7 @@ namespace Unity.Properties {
         ///    resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -62,7 +62,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to The type {0} has multiple constructors of length {1}. Unable to disambiguate..
         /// </summary>
-        internal static string AmbiguousInjectionConstructor {
+        public static string AmbiguousInjectionConstructor {
             get {
                 return ResourceManager.GetString("AmbiguousInjectionConstructor", resourceCulture);
             }
@@ -71,7 +71,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to The provided string argument must not be empty..
         /// </summary>
-        internal static string ArgumentMustNotBeEmpty {
+        public static string ArgumentMustNotBeEmpty {
             get {
                 return ResourceManager.GetString("ArgumentMustNotBeEmpty", resourceCulture);
             }
@@ -80,7 +80,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to The current build operation (build key {2}) failed: {3} (Strategy type {0}, index {1}).
         /// </summary>
-        internal static string BuildFailedException {
+        public static string BuildFailedException {
             get {
                 return ResourceManager.GetString("BuildFailedException", resourceCulture);
             }
@@ -89,7 +89,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to The current type, {0}, is an abstract class and cannot be constructed. Are you missing a type mapping?.
         /// </summary>
-        internal static string CannotConstructAbstractClass {
+        public static string CannotConstructAbstractClass {
             get {
                 return ResourceManager.GetString("CannotConstructAbstractClass", resourceCulture);
             }
@@ -98,7 +98,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to The current type, {0}, is delegate and cannot be constructed. Unity only supports resolving Func&lt;T&gt; and Func&lt;IEnumerable&lt;T&gt;&gt; by default..
         /// </summary>
-        internal static string CannotConstructDelegate {
+        public static string CannotConstructDelegate {
             get {
                 return ResourceManager.GetString("CannotConstructDelegate", resourceCulture);
             }
@@ -107,7 +107,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to The current type, {0}, is an interface and cannot be constructed. Are you missing a type mapping?.
         /// </summary>
-        internal static string CannotConstructInterface {
+        public static string CannotConstructInterface {
             get {
                 return ResourceManager.GetString("CannotConstructInterface", resourceCulture);
             }
@@ -116,7 +116,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to Cannot extract type from build key {0}..
         /// </summary>
-        internal static string CannotExtractTypeFromBuildKey {
+        public static string CannotExtractTypeFromBuildKey {
             get {
                 return ResourceManager.GetString("CannotExtractTypeFromBuildKey", resourceCulture);
             }
@@ -125,7 +125,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to The method {0}.{1}({2}) is an open generic method. Open generic methods cannot be injected..
         /// </summary>
-        internal static string CannotInjectGenericMethod {
+        public static string CannotInjectGenericMethod {
             get {
                 return ResourceManager.GetString("CannotInjectGenericMethod", resourceCulture);
             }
@@ -134,7 +134,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to The property {0} on type {1} is an indexer. Indexed properties cannot be injected..
         /// </summary>
-        internal static string CannotInjectIndexer {
+        public static string CannotInjectIndexer {
             get {
                 return ResourceManager.GetString("CannotInjectIndexer", resourceCulture);
             }
@@ -143,7 +143,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to The method {1} on type {0} has an out parameter. Injection cannot be performed..
         /// </summary>
-        internal static string CannotInjectMethodWithOutParam {
+        public static string CannotInjectMethodWithOutParam {
             get {
                 return ResourceManager.GetString("CannotInjectMethodWithOutParam", resourceCulture);
             }
@@ -152,7 +152,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to The method {0}.{1}({2}) has at least one out parameter. Methods with out parameters cannot be injected..
         /// </summary>
-        internal static string CannotInjectMethodWithOutParams {
+        public static string CannotInjectMethodWithOutParams {
             get {
                 return ResourceManager.GetString("CannotInjectMethodWithOutParams", resourceCulture);
             }
@@ -161,7 +161,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to The method {0}.{1}({2}) has at least one ref parameter.Methods with ref parameters cannot be injected..
         /// </summary>
-        internal static string CannotInjectMethodWithRefParams {
+        public static string CannotInjectMethodWithRefParams {
             get {
                 return ResourceManager.GetString("CannotInjectMethodWithRefParams", resourceCulture);
             }
@@ -170,7 +170,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to The method {1} on type {0} is marked for injection, but it is an open generic method. Injection cannot be performed..
         /// </summary>
-        internal static string CannotInjectOpenGenericMethod {
+        public static string CannotInjectOpenGenericMethod {
             get {
                 return ResourceManager.GetString("CannotInjectOpenGenericMethod", resourceCulture);
             }
@@ -179,7 +179,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to The method {0}.{1}({2}) is static. Static methods cannot be injected..
         /// </summary>
-        internal static string CannotInjectStaticMethod {
+        public static string CannotInjectStaticMethod {
             get {
                 return ResourceManager.GetString("CannotInjectStaticMethod", resourceCulture);
             }
@@ -188,7 +188,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to The type {0} is an open generic type. An open generic type cannot be resolved..
         /// </summary>
-        internal static string CannotResolveOpenGenericType {
+        public static string CannotResolveOpenGenericType {
             get {
                 return ResourceManager.GetString("CannotResolveOpenGenericType", resourceCulture);
             }
@@ -197,7 +197,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to Resolving parameter &quot;{0}&quot; of constructor {1}.
         /// </summary>
-        internal static string ConstructorArgumentResolveOperation {
+        public static string ConstructorArgumentResolveOperation {
             get {
                 return ResourceManager.GetString("ConstructorArgumentResolveOperation", resourceCulture);
             }
@@ -206,7 +206,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to The parameter {0} could not be resolved when attempting to call constructor {1}..
         /// </summary>
-        internal static string ConstructorParameterResolutionFailed {
+        public static string ConstructorParameterResolutionFailed {
             get {
                 return ResourceManager.GetString("ConstructorParameterResolutionFailed", resourceCulture);
             }
@@ -215,7 +215,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to Parameter type inference does not work for null values. Indicate the parameter type explicitly using a properly configured instance of the InjectionParameter or InjectionParameter&lt;T&gt; classes..
         /// </summary>
-        internal static string ExceptionNullParameterValue {
+        public static string ExceptionNullParameterValue {
             get {
                 return ResourceManager.GetString("ExceptionNullParameterValue", resourceCulture);
             }
@@ -224,7 +224,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to Calling constructor {0}.
         /// </summary>
-        internal static string InvokingConstructorOperation {
+        public static string InvokingConstructorOperation {
             get {
                 return ResourceManager.GetString("InvokingConstructorOperation", resourceCulture);
             }
@@ -233,7 +233,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to Calling method {0}.{1}.
         /// </summary>
-        internal static string InvokingMethodOperation {
+        public static string InvokingMethodOperation {
             get {
                 return ResourceManager.GetString("InvokingMethodOperation", resourceCulture);
             }
@@ -242,7 +242,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to An item with the given key is already present in the dictionary..
         /// </summary>
-        internal static string KeyAlreadyPresent {
+        public static string KeyAlreadyPresent {
             get {
                 return ResourceManager.GetString("KeyAlreadyPresent", resourceCulture);
             }
@@ -251,7 +251,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to The lifetime manager is already registered. Lifetime managers cannot be reused, please create a new one..
         /// </summary>
-        internal static string LifetimeManagerInUse {
+        public static string LifetimeManagerInUse {
             get {
                 return ResourceManager.GetString("LifetimeManagerInUse", resourceCulture);
             }
@@ -260,7 +260,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to The override marker build plan policy has been invoked. This should never happen, looks like a bug in the container..
         /// </summary>
-        internal static string MarkerBuildPlanInvoked {
+        public static string MarkerBuildPlanInvoked {
             get {
                 return ResourceManager.GetString("MarkerBuildPlanInvoked", resourceCulture);
             }
@@ -269,7 +269,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to Resolving parameter &quot;{0}&quot; of method {1}.{2}.
         /// </summary>
-        internal static string MethodArgumentResolveOperation {
+        public static string MethodArgumentResolveOperation {
             get {
                 return ResourceManager.GetString("MethodArgumentResolveOperation", resourceCulture);
             }
@@ -278,7 +278,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to The value for parameter &quot;{1}&quot; of method {0} could not be resolved. .
         /// </summary>
-        internal static string MethodParameterResolutionFailed {
+        public static string MethodParameterResolutionFailed {
             get {
                 return ResourceManager.GetString("MethodParameterResolutionFailed", resourceCulture);
             }
@@ -287,7 +287,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to Could not resolve dependency for build key {0}..
         /// </summary>
-        internal static string MissingDependency {
+        public static string MissingDependency {
             get {
                 return ResourceManager.GetString("MissingDependency", resourceCulture);
             }
@@ -296,7 +296,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to The type {0} has multiple constructors marked with the InjectionConstructor attribute. Unable to disambiguate..
         /// </summary>
-        internal static string MultipleInjectionConstructors {
+        public static string MultipleInjectionConstructors {
             get {
                 return ResourceManager.GetString("MultipleInjectionConstructors", resourceCulture);
             }
@@ -305,7 +305,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to The supplied type {0} must be an open generic type..
         /// </summary>
-        internal static string MustHaveOpenGenericType {
+        public static string MustHaveOpenGenericType {
             get {
                 return ResourceManager.GetString("MustHaveOpenGenericType", resourceCulture);
             }
@@ -314,7 +314,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to The supplied type {0} does not have the same number of generic arguments as the target type {1}..
         /// </summary>
-        internal static string MustHaveSameNumberOfGenericArguments {
+        public static string MustHaveSameNumberOfGenericArguments {
             get {
                 return ResourceManager.GetString("MustHaveSameNumberOfGenericArguments", resourceCulture);
             }
@@ -323,7 +323,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to The type {0} does not have an accessible constructor..
         /// </summary>
-        internal static string NoConstructorFound {
+        public static string NoConstructorFound {
             get {
                 return ResourceManager.GetString("NoConstructorFound", resourceCulture);
             }
@@ -332,7 +332,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to The type {0} does not have a generic argument named &quot;{1}&quot;.
         /// </summary>
-        internal static string NoMatchingGenericArgument {
+        public static string NoMatchingGenericArgument {
             get {
                 return ResourceManager.GetString("NoMatchingGenericArgument", resourceCulture);
             }
@@ -341,7 +341,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to while resolving.
         /// </summary>
-        internal static string NoOperationExceptionReason {
+        public static string NoOperationExceptionReason {
             get {
                 return ResourceManager.GetString("NoOperationExceptionReason", resourceCulture);
             }
@@ -350,7 +350,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to The type {0} does not have a constructor that takes the parameters ({1})..
         /// </summary>
-        internal static string NoSuchConstructor {
+        public static string NoSuchConstructor {
             get {
                 return ResourceManager.GetString("NoSuchConstructor", resourceCulture);
             }
@@ -359,7 +359,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to The type {0} does not have a public method named {1} that takes the parameters ({2})..
         /// </summary>
-        internal static string NoSuchMethod {
+        public static string NoSuchMethod {
             get {
                 return ResourceManager.GetString("NoSuchMethod", resourceCulture);
             }
@@ -368,7 +368,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to The type {0} does not contain an instance property named {1}..
         /// </summary>
-        internal static string NoSuchProperty {
+        public static string NoSuchProperty {
             get {
                 return ResourceManager.GetString("NoSuchProperty", resourceCulture);
             }
@@ -377,7 +377,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to The type {0} is not a generic type, and you are attempting to inject a generic parameter named &quot;{1}&quot;..
         /// </summary>
-        internal static string NotAGenericType {
+        public static string NotAGenericType {
             get {
                 return ResourceManager.GetString("NotAGenericType", resourceCulture);
             }
@@ -386,7 +386,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to The type {0} is not an array type with rank 1, and you are attempting to use a [DependencyArray] attribute on a parameter or property with this type..
         /// </summary>
-        internal static string NotAnArrayTypeWithRankOne {
+        public static string NotAnArrayTypeWithRankOne {
             get {
                 return ResourceManager.GetString("NotAnArrayTypeWithRankOne", resourceCulture);
             }
@@ -395,7 +395,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to Optional dependencies must be reference types. The type {0} is a value type..
         /// </summary>
-        internal static string OptionalDependenciesMustBeReferenceTypes {
+        public static string OptionalDependenciesMustBeReferenceTypes {
             get {
                 return ResourceManager.GetString("OptionalDependenciesMustBeReferenceTypes", resourceCulture);
             }
@@ -404,7 +404,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to The property {0} on type {1} is not settable..
         /// </summary>
-        internal static string PropertyNotSettable {
+        public static string PropertyNotSettable {
             get {
                 return ResourceManager.GetString("PropertyNotSettable", resourceCulture);
             }
@@ -413,7 +413,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to The property {0} on type {1} is of type {2}, and cannot be injected with a value of type {3}..
         /// </summary>
-        internal static string PropertyTypeMismatch {
+        public static string PropertyTypeMismatch {
             get {
                 return ResourceManager.GetString("PropertyTypeMismatch", resourceCulture);
             }
@@ -422,7 +422,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to The value for the property &quot;{0}&quot; could not be resolved..
         /// </summary>
-        internal static string PropertyValueResolutionFailed {
+        public static string PropertyValueResolutionFailed {
             get {
                 return ResourceManager.GetString("PropertyValueResolutionFailed", resourceCulture);
             }
@@ -431,7 +431,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to The provided string argument must not be empty..
         /// </summary>
-        internal static string ProvidedStringArgMustNotBeEmpty {
+        public static string ProvidedStringArgMustNotBeEmpty {
             get {
                 return ResourceManager.GetString("ProvidedStringArgMustNotBeEmpty", resourceCulture);
             }
@@ -445,7 +445,7 @@ namespace Unity.Properties {
         ///At the time of the exception, the container was:
         ///.
         /// </summary>
-        internal static string ResolutionFailed {
+        public static string ResolutionFailed {
             get {
                 return ResourceManager.GetString("ResolutionFailed", resourceCulture);
             }
@@ -454,7 +454,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to Resolving {0},{1}.
         /// </summary>
-        internal static string ResolutionTraceDetail {
+        public static string ResolutionTraceDetail {
             get {
                 return ResourceManager.GetString("ResolutionTraceDetail", resourceCulture);
             }
@@ -463,7 +463,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to Resolving {0},{1} (mapped from {2}, {3}).
         /// </summary>
-        internal static string ResolutionWithMappingTraceDetail {
+        public static string ResolutionWithMappingTraceDetail {
             get {
                 return ResourceManager.GetString("ResolutionWithMappingTraceDetail", resourceCulture);
             }
@@ -472,7 +472,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to Resolving value for property {0}.{1}.
         /// </summary>
-        internal static string ResolvingPropertyValueOperation {
+        public static string ResolvingPropertyValueOperation {
             get {
                 return ResourceManager.GetString("ResolvingPropertyValueOperation", resourceCulture);
             }
@@ -481,7 +481,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to The constructor {1} selected for type {0} has ref or out parameters. Such parameters are not supported for constructor injection..
         /// </summary>
-        internal static string SelectedConstructorHasRefParameters {
+        public static string SelectedConstructorHasRefParameters {
             get {
                 return ResourceManager.GetString("SelectedConstructorHasRefParameters", resourceCulture);
             }
@@ -490,7 +490,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to Setting value for property {0}.{1}.
         /// </summary>
-        internal static string SettingPropertyOperation {
+        public static string SettingPropertyOperation {
             get {
                 return ResourceManager.GetString("SettingPropertyOperation", resourceCulture);
             }
@@ -499,7 +499,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to The type {0} cannot be constructed. You must configure the container to supply this value..
         /// </summary>
-        internal static string TypeIsNotConstructable {
+        public static string TypeIsNotConstructable {
             get {
                 return ResourceManager.GetString("TypeIsNotConstructable", resourceCulture);
             }
@@ -508,7 +508,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to The type {1} cannot be assigned to variables of type {0}..
         /// </summary>
-        internal static string TypesAreNotAssignable {
+        public static string TypesAreNotAssignable {
             get {
                 return ResourceManager.GetString("TypesAreNotAssignable", resourceCulture);
             }
@@ -517,7 +517,7 @@ namespace Unity.Properties {
         /// <summary>
         ///    Looks up a localized string similar to &lt;unknown&gt;.
         /// </summary>
-        internal static string UnknownType {
+        public static string UnknownType {
             get {
                 return ResourceManager.GetString("UnknownType", resourceCulture);
             }
